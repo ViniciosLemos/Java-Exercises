@@ -29,7 +29,7 @@ public class Pessoa {
 		if(this.getSaldo() > 0) {
 			System.out.println("A conta tem dinheiro!!");
 		}else if(this.getSaldo() < 0){
-			System.out.println("Ta devendo, caloteiro");
+			System.out.println("Nao da para fechar");
 		}else {
 			this.setStatus(false);
 		}
